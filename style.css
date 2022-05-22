@@ -10,11 +10,18 @@ body {
 header {
   background-color: #26282c;
   padding: 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 header nav a {
   color: #fff;
-  margin-right: 36px;
+  margin-right: 20px;
   font-size: 20px;
+}
+header nav a:hover {
+  color: #eec305;
+  cursor: pointer;
 }
 header .imgbox {
   width: 150px;
@@ -254,6 +261,7 @@ header .imgbox {
 }
 #contact .imgbox {
   height: 120px;
+  opacity: 0.5px;
 }
 #contact .btn {
   background-color: #eec305;

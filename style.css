@@ -262,4 +262,31 @@ header .imgbox {
   font-size: 17px;
   margin-top: 26px;
   padding: 16px 34px;
+}
+
+#website h3 {
+  margin-top: 50px;
+}
+#website ul {
+  display: flex;
+  justify-content: center;
+}
+#website ul li {
+  background-color: #080808;
+  color: #fff;
+  border-radius: 39px;
+  width: 40px;
+  height: 42px;
+  margin: 37px 10px;
+}
+#website ul li .icon {
+  margin: 13px;
+}
+#website h4 {
+  margin: 45px 0 0 135px;
+}
+#website h5 {
+  display: flex;
+  justify-content: flex-end;
+  margin: -15px 65px 0 0;
 }/*# sourceMappingURL=style.css.map */

@@ -242,6 +242,7 @@ header .box .icon {
 #team {
   background-color: #f7f7f7;
   padding: 80px;
+  @m;
 }
 #team h1 {
   font-weight: 700;

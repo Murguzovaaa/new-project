@@ -75,53 +75,50 @@ header .box .icon {
 }
 
 #nice {
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-image: url("assets/header-bg.jpg");
   height: 1020px;
 }
-#nice .imgbox {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
+#nice .box {
+  height: 128vh;
 }
-#nice .box .textbox {
-  margin-top: 131px;
-}
-#nice .box .textbox h1, #nice .box .textbox h3 {
+#nice .textbox h1, #nice .textbox h2, #nice .textbox h3 {
   color: #fff;
 }
-#nice .box h1 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 40px 0;
+#nice .textbox h2 {
+  font-weight: 600;
+  font-size: 40px;
 }
-#nice .box h3 {
+#nice .textbox h1 {
   font-weight: 700;
-  font-size: 60px;
-  margin: 183px;
+  font-size: 70px;
+  margin: 47px 0 54px 0;
 }
-#nice .box .btn {
+#nice .textbox .btn {
   background-color: #ffd607;
   color: #fff;
-  padding: 10px 15px;
   font-size: 30px;
-  border-radius: 7px;
+  padding: 20px 50px;
 }
-#nice .box .btn:hover h3 {
+#nice .textbox .btn:hover h3 {
   cursor: pointer;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 748px) {
   #nice .box .textbox h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
   #nice .box .textbox h3 {
     font-size: 46px;
   }
   #nice .box .textbox h2 {
     font-size: 36px;
+  }
+}
+@media screen and (min-width: 430) {
+  #nice .box .textbox h1 {
+    font-size: 90px;
   }
 }
 
@@ -241,4 +238,44 @@ header .box .icon {
   #portfolio .textbox h3 {
     font-size: 22px;
   }
+}
+
+#about {
+  padding-top: 105px;
+}
+#about h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#about h4 {
+  font-size: 20px;
+  color: #868383;
+  margin: 22px 0 90px 16px;
+}
+#about .textbox {
+  text-align: right;
+}
+#about .textbox h2, #about .textbox h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 20px;
+}
+#about .textbox h6 {
+  font-size: 25px;
+  color: #9c9a9a;
+  margin: 20px 20px 20px 87px;
+  line-height: 1.4;
+}
+#about h5 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background-color: #fcd00f;
+  border-radius: 150px;
+  padding: 33px 10px;
+  margin: 55px 142px 0 144px;
+}
+#about .imgbox {
+  width: 150px;
+  border-radius: 125px;
 }/*# sourceMappingURL=style.css.map */

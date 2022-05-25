@@ -1,38 +1,40 @@
-#nicebackground-position: center
+#nice
     background-size: cover
     background-repeat: no-repeat
+    background-position: center
+    background-image: url("assets/header-bg.jpg")
     height: 1020px
-    .imgbox
-        z-index: -1
-        position: absolute
-        top: 0
-        right: 0
+    .box
+        height: 128vh
     .textbox
-        margin-top: 130px
-        h1,h3
+        h1,h2,h3
             color: #fff
-        h1
-            font-weight: 500
+        h2
+            font-weight: 600
             font-size: 40px
-        h3
+        h1
             font-weight: 700
-            font-size: 60px
-            margin: 144px
+            font-size: 70px
+            margin: 47px 0 54px 0
         .btn
             background-color: #ffd607
             color: #fff
             font-size: 30px
-            padding: 38px 15px
-            margin: 235px
+            padding: 20px 50px
             &:hover
                 h3
                     cursor: pointer
-    @media screen and ( max-width: 700px )
+    @media screen and ( max-width: 748px )
         .box
             .textbox
                 h1
-                    font-size: 40px
+                    font-size: 60px
                 h3
                     font-size: 46px
                 h2
                     font-size: 36px
+    @media screen and ( min-width: 430 )
+        .box
+            .textbox
+                h1
+                    font-size: 90px

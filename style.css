@@ -138,7 +138,7 @@ header .box .icon {
   margin: 20px 0;
 }
 #services h4 {
-  font-size: 20px;
+  font-size: 30px;
   color: #6c757d;
   margin: 30px 0;
   line-height: 1.7;
@@ -166,7 +166,7 @@ header .box .icon {
     font-size: 25px;
   }
 }
-@media screen and (min: width 500px) {
+@media screen and (min: width 512px) {
   #services h1 {
     font-size: 45px;
   }

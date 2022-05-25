@@ -208,16 +208,11 @@ header .box .icon {
 }
 #portfolio .imgbox {
   position: relative;
+  z-index: 1;
 }
-#portfolio .imgbox .overlay {
-  position: absolute;
-}
-#portfolio .imgbox:hover {
-  opacity: 1;
-  cursor: pointer;
-}
-#portfolio .imgbox .icon {
+#portfolio .icon {
   background-color: #eec305;
+  position: absolute;
   opacity: 0;
   display: flex;
   justify-content: center;
@@ -227,6 +222,10 @@ header .box .icon {
   color: #fff;
   font-size: 60px;
   top: 0;
+}
+#portfolio .icon:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
 @media screen and (max-width: 568px) {
   #portfolio h1 {

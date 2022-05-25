@@ -239,42 +239,55 @@ header .box .icon {
   }
 }
 
-#about {
-  padding-top: 105px;
+#team {
+  background-color: #f7f7f7;
+  padding: 80px;
 }
-#about h1 {
+#team h1 {
   font-weight: 700;
   font-size: 40px;
 }
-#about h4 {
+#team h4 {
+  font-size: 18px;
+  color: #888383;
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+#team .textbox h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: -36px;
+}
+#team .textbox h3 {
   font-size: 20px;
-  color: #868383;
-  margin: 22px 0 90px 16px;
+  color: #999595;
+  margin: 10px 0 13px 0;
 }
-#about .textbox {
-  text-align: right;
+#team .textbox h3 ul {
+  display: flex;
+  justify-content: center;
 }
-#about .textbox h2, #about .textbox h3 {
-  font-weight: 700;
-  font-size: 30px;
-  margin-right: 20px;
-}
-#about .textbox h6 {
-  font-size: 25px;
-  color: #9c9a9a;
-  margin: 20px 20px 20px 87px;
-  line-height: 1.4;
-}
-#about h5 {
-  font-weight: 700;
-  font-size: 30px;
+#team .textbox h3 ul li {
+  background-color: #080808;
   color: #fff;
-  background-color: #fcd00f;
-  border-radius: 150px;
-  padding: 33px 10px;
-  margin: 55px 142px 0 144px;
+  border-radius: 39px;
+  width: 43px;
+  height: 40px;
+  margin: 10px;
+  justify-content: center;
 }
-#about .imgbox {
-  width: 150px;
-  border-radius: 125px;
+#team .imgbox {
+  margin: 67px;
+  border-radius: 249px;
+}
+#team h5 {
+  color: #858080;
+  font-size: 15px;
+  margin-top: 37px;
+  line-height: 1.2;
+}
+@media screen and (max-width: 756) {
+  #team h5 {
+    font-size: 60px;
+  }
 }/*# sourceMappingURL=style.css.map */

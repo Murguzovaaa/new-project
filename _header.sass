@@ -5,12 +5,42 @@ header
     width: 100%
     z-index: 1
     nav
+        margin-right: -682px
+        font-size: 100px
         a
             color: #fff
-            margin-right: 20px
             font-size: 20px
             &:hover
                 color: #eec305
                 cursor: pointer
+    .box
+        border: 1px solid
+        border-radius: 8px
+        padding: 18px
+        h1
+            font-size: 20px
+            color: #929090
+        .icon
+            font-size: 23px
+            color: #929090
     .imgbox
         width: 150px
+    @media screen and ( max-width: 1205px )
+        nav
+            display: none
+        .box
+            display: block
+    @media screen and ( min-width: 1205px )
+        nav
+            display: block
+        .box
+            display: none
+            h1,.icon
+                display: none
+    @media screen and ( max-width: 900px )
+        .imgbox
+            width: 180px
+        .box
+            padding: 10px
+            .icon,h1
+                font-size: 10px

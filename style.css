@@ -325,4 +325,48 @@ header .box .icon {
   #ibm .microsoft {
     width: 170px;
   }
+}
+#contact {
+  background-position: center;
+  background-size: cover;
+  height: 586px;
+  background-color: #242424;
+  background-image: url(assets/map-image.png);
+}
+#contact .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  margin: 20px;
+}
+#contact .textbox h3 {
+  color: #777474;
+  font-size: 15px;
+}
+#contact .add input {
+  border: 2px solid #808080;
+  width: 485px;
+  color: #807b7b;
+  font-size: 14px;
+  margin: -1px 0 19px 121px;
+  height: 46px;
+}
+#contact textarea {
+  padding: 16px;
+  border: 2px solid #808080;
+  width: 424px;
+  margin-left: -28px;
+  height: 167px;
+}
+#contact .imgbox {
+  height: 120px;
+}
+#contact .btn {
+  background-color: #eec305;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 26px;
+  padding: 16px 34px;
+  opacity: 0.9px;
 }/*# sourceMappingURL=style.css.map */

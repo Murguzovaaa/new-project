@@ -9,7 +9,8 @@ body {
 .imgbox img {
   width: 100%;
 }
-.imgbox section {
+
+section {
   padding: 50px 0;
 }
 
@@ -116,7 +117,7 @@ header .box .icon {
     font-size: 36px;
   }
 }
-@media screen and (min-width: 430) {
+@media screen and (min-width: 430px) {
   #nice .box .textbox h1 {
     font-size: 90px;
   }
@@ -152,7 +153,7 @@ header .box .icon {
   padding: 40px;
   border-radius: 50%;
 }
-@media screen and (max-width: 1198) {
+@media screen and (max-width: 1198px) {
   #services h1 {
     font-size: 58px;
   }
@@ -289,12 +290,12 @@ header .box .icon {
   margin-top: 37px;
   line-height: 1.2;
 }
-@media screen and (max-width: 756) {
+@media screen and (max-width: 756px) {
   #team h5 {
     font-size: 60px;
   }
 }
-@media screen and (min-width: 570) {
+@media screen and (min-width: 570px) {
   #team {
     font-size: 40px;
   }
@@ -321,7 +322,7 @@ header .box .icon {
   width: 124px;
   margin: 73px;
 }
-@media screen and (max-width: 998) {
+@media screen and (max-width: 998px) {
   #ibm .microsoft {
     width: 170px;
   }
@@ -331,6 +332,7 @@ header .box .icon {
   background-size: cover;
   background-color: #303030;
   background-image: url(assets/map-image.png);
+  width: 100%;
 }
 #contact h1 {
   font-weight: 700;
@@ -346,21 +348,21 @@ header .box .icon {
 }
 #contact .add input {
   border: 2px solid #808080;
-  width: 608%;
   color: #807b7b;
   font-size: 14px;
-  margin: 2px 0 19px 27px;
-  height: 64px;
+  margin: 8px 0 19px 27px;
 }
 #contact textarea {
   padding: 16px;
   border: 2px solid #808080;
-  width: 683%;
   margin-left: 9px;
+  width: 581px;
+  height: 21px;
 }
 #contact .btn {
   background-color: #eec305;
   color: #fff;
+  opacity: 0.6;
   font-size: 20px;
   margin-top: 19px;
   padding: 16px 60px;
@@ -392,7 +394,7 @@ header .box .icon {
   justify-content: flex-end;
   margin: -15px 65px 0 0;
 }
-@media screen and (max-width: 751) {
+@media screen and (max-width: 751px) {
   #website h4 {
     margin: 20px;
   }

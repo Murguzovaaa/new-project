@@ -139,7 +139,7 @@ header .box .icon {
   margin: 20px 0;
 }
 #services h4 {
-  font-size: 30px;
+  font-size: 20px;
   color: #6c757d;
   margin: 30px 0;
   line-height: 1.7;
@@ -286,8 +286,8 @@ header .box .icon {
 }
 #team h5 {
   color: #858080;
-  font-size: 15px;
-  margin-top: 37px;
+  font-size: 35px;
+  margin-top: 72px;
   line-height: 1.2;
 }
 @media screen and (max-width: 756px) {
@@ -332,7 +332,6 @@ header .box .icon {
   background-size: cover;
   background-color: #303030;
   background-image: url(assets/map-image.png);
-  width: 100%;
 }
 #contact h1 {
   font-weight: 700;
@@ -359,7 +358,6 @@ header .box .icon {
   border: 2px solid #808080;
   margin-left: -45px;
   width: 613px;
-  height: 262px;
 }
 #contact .btn {
   background-color: #eec305;
@@ -370,14 +368,14 @@ header .box .icon {
   padding: 28px 83px;
 }
 
-#website h3 {
+footer h3 {
   margin-top: 50px;
 }
-#website ul {
+footer ul {
   display: flex;
   justify-content: center;
 }
-#website ul li {
+footer ul li {
   background-color: #080808;
   color: #fff;
   border-radius: 39px;
@@ -385,19 +383,19 @@ header .box .icon {
   height: 42px;
   margin: 37px 10px;
 }
-#website ul li .icon {
+footer ul li .icon {
   margin: 13px;
 }
-#website h4 {
+footer h4 {
   margin: 45px 0 0 135px;
 }
-#website h5 {
+footer h5 {
   display: flex;
   justify-content: flex-end;
   margin: -15px 65px 0 0;
 }
 @media screen and (max-width: 751px) {
-  #website h4 {
+  footer h4 {
     margin: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

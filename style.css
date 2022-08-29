@@ -291,6 +291,54 @@ header .box .icon {
   font-size: 24px;
   font-weight: 700;
 }
+@media screen and (max-width: 1400px) {
+  #about .imgbox {
+    margin: 0 3px;
+  }
+  #about .txtright {
+    padding-right: 50px;
+  }
+  #about .txtleft {
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #about .imgbox {
+    margin: 0 -11px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #about .imgbox {
+    margin: 0 -33px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about .box1, #about .box3 {
+    flex-direction: row-reverse;
+  }
+  #about .textbox {
+    width: auto;
+    text-align: left;
+    padding-left: 65px;
+  }
+  #about .txtleft {
+    padding: 65px;
+  }
+  #about .txtright {
+    padding-right: 0;
+  }
+  #about .imgbox {
+    width: 90px;
+  }
+  #about .btnbox {
+    display: flex;
+    justify-content: start;
+  }
+  #about .btnbox .btn {
+    padding: 11px 30px;
+    font-size: 10px;
+  }
+}
 
 #team {
   background-color: #f7f7f7;
